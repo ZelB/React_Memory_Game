@@ -1,0 +1,106 @@
+/*Specify the entire app size*/
+.appClass {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Customize the header template*/
+.headerClass {
+    color: rgb(3, 110, 110);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'RocknRoll One', sans-serif;
+    text-shadow: 3px 3px darkgray;
+    padding: 2.5%;
+    border-bottom: 4px ridge gray;
+    margin-bottom: 5px;
+}
+
+/*The Heading logo*/
+.logoImg {
+    margin-right: 60px;
+    opacity: 90%;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(174, 184, 199);
+}
+
+/* The Login page where user enters their name*/
+.loginWrapper{
+    height: 100vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Customize the HELP button*/
+.helpClass {
+    background-color: rgb(5, 131, 131);
+    color: white; 
+    margin-left: 80%;
+    margin-right: 10%;
+    border: solid gray;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.nav-link:hover {
+    background-color: rgb(16, 189, 189);
+    color: rgb(5, 37, 37);
+    font-weight: 800;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    margin-right: 15px;
+    border-right: black;
+  }
+
+  /* The Help component class*/
+  .helpInstructClass {
+    font-family: 'RocknRoll One', sans-serif;
+    margin-left: 100px;
+  }
+
+/* The image layout for displaying all the images*/
+.imageClass {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
+    width: 800px !important;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.imgSizeBox{
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 180px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBack {
+    background-image: url("./Components/Game_Images/cardBacking.jpg") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; 
+    width: 160px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(142, 150, 161);
+}
+
+.gameBoxDiv {
+    justify-content: center;
+    align-items: center;
+}
+
