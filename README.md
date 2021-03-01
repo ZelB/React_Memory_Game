@@ -20,3 +20,6 @@ This game was created using React, Bootstrap, BrowserRouter and varies component
     *   Install react using the following command: "npm install react-bootstrap bootstrap"
     *   When all 3x above packages has been installed, type in the following command: "npm start"
     *   The React App will open in your local browser under http://localhost:3000/
+
+### *Credits*
+I used Luc van Kerkvoort's tutorial as a guideline. It can be found at >https://dev.to/lucvankerkvoort/react-memory-game-2ep9
