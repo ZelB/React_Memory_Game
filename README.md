@@ -1,4 +1,7 @@
-///// How to play the game: /////
+# Memory Card Game *using react*
+This game was created using React, Bootstrap, BrowserRouter and varies components
+
+## How to play the game:
     1. Click on the "Play" option in the menu tab
     2. Click on the card to turn the card around and display an image
     3. You can only turn two cards around at any one time
@@ -6,7 +9,7 @@
     5. Once you have matched all the identical cards, you win
 
 
-///// How to install the Game: //////
+## How to install the Game: 
     *   Copy the file onto your local drive
     *   Open your Command Line / Powe Shell
     *   Change directory to your newly added file using: "cd" and add the new_Location
