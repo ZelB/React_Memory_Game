@@ -22,4 +22,4 @@ This game was created using React, Bootstrap, BrowserRouter and varies component
     *   The React App will open in your local browser under http://localhost:3000/
 
 ### *Credits*
-I used Luc van Kerkvoort's tutorial as a guideline. It can be found at >https://dev.to/lucvankerkvoort/react-memory-game-2ep9
+I used Luc van Kerkvoort's tutorial as a guideline. It can be found at https://dev.to/lucvankerkvoort/react-memory-game-2ep9
