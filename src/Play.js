@@ -1,22 +1,13 @@
 import React, { Component } from 'react'
 
-// import useState
-import { useState } from 'react';
-
-//import react DOM for routing
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-
 //import react bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from 'react-bootstrap/Nav';
 
 //import custom CSS
 import './customCSS.css'
 
 //import components 
-import Header from './Components/Header';
 import Login from './Components/Login';
-import Help from './Components/Help';
 import GameBoard from './Components/GameBoard';
 import EndGame from './Components/EndGame';
 
@@ -41,6 +32,7 @@ export class Play extends Component {
         } else {
           this.setState({showEndGame: booleanEndGame});
         }
+        console.log(booleanEndGame)
       };
     
       render() {
@@ -50,8 +42,8 @@ export class Play extends Component {
         return (
             <div>
                 {showLoginName ? <Login playerName={this.handelLogin} /> : null}
-                {showEndGame ? <EndGame newGame={this.handelEndGame} /> : null}
-                <GameBoard endGame={this.handelEndGame} playerName={this.state.playerName} userScore={this.state.userScore} />
+                {showEndGame ? <EndGame newGame={this.handelEndGame} /> : <GameBoard endGame={this.handelEndGame} playerName={this.state.playerName} userScore={this.state.userScore} />}
+                
                      
             </div>
         )
