@@ -1,6 +1,9 @@
 # Memory Card Game *using react*
 This game was created using React, Bootstrap, BrowserRouter and varies components
 
+## You can check it out on:
+*https://shrouded-fjord-75184.herokuapp.com/play*
+
 ## How to play the game:
     1. Click on the "Play" option in the menu tab
     2. Click on the card to turn the card around and display an image
