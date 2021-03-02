@@ -10,7 +10,7 @@ const GameBoard = ({playerName, userScore, endGame}) => {
         <div className='gameBoxDiv'>
 
              <div>
-                <h4>{playerName}</h4>
+                <h5>{playerName}</h5>
                 <h6>Score: {userScore}</h6>
             </div>
             <br />

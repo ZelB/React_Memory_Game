@@ -8,14 +8,14 @@
 /* Customize the header template*/
 .headerClass {
     color: rgb(3, 110, 110);
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-weight: 700;
     font-family: 'RocknRoll One', sans-serif;
     text-shadow: 3px 3px darkgray;
-    padding: 2.5%;
+    padding: 1%;
     border-bottom: 4px ridge gray;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 /*The Heading logo*/
@@ -70,8 +70,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 900px;
-    width: 800px !important;
+    height: 600px !important;
+    width: 900px !important;
     box-shadow: 4px 4px 10px gray;
 }
 
@@ -80,6 +80,7 @@
     background-repeat: no-repeat !important;
     background-position: center !important;
     width: 180px;
+    height: 120px;
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
@@ -92,7 +93,8 @@
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important; 
-    width: 160px;
+    width: 180px;
+    height: 120px;
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
